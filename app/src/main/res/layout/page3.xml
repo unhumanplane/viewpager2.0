@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent" >
+
+    <EditText
+        android:id="@+id/editTextshanchuid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text=""
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/editTextshanchuid"
+        android:layout_marginTop="117dp"
+        android:text="删除" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="输入要删除的id号"
+        android:layout_alignTop="@+id/editTextshanchuid"
+        android:layout_alignParentStart="true"
+        android:layout_above="@+id/button2"
+        android:layout_toStartOf="@+id/editTextshanchuid" />
+</RelativeLayout>
